@@ -9,6 +9,6 @@ define('VIEW_PATH', __DIR__ . '/vista/');
 
 
 // Incluir archivo de conexión a la base de datos
-require_once __DIR__ . '/conexion.php';
+require_once MODEL_PATH . 'conexion.php';
 ?>
 

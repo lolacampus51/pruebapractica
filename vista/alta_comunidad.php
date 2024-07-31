@@ -25,25 +25,26 @@
              </div>
             <div class="row" style="background-color: rgb(64, 13, 185, 0.3)">
                 <div class="col-12 my-3">
-                    <form class="row g-3" method="post" action="../controlador/comunidad_controlador.php">
+                    <form class="row g-3" method="POST" action="../controlador/comunidad_controlador.php">
+                    <input type="hidden" name="accion" value="procesar_alta">
                         <div class="col-sm-6 ">
-                            <label for="inputnombre" class="form-label">Nombre de la Comunidad</label>
+                            <label for="nombre" class="form-label">Nombre de la Comunidad</label>
                             <input type="text" class="form-control" id="nombre" name="nombre">
                         </div>
                        
                         <div class=" col-sm-6 ">
-                            <label for="inputdireccion" class="form-label">Dirección</label>
+                            <label for="direccion" class="form-label">Dirección</label>
                             <input type="text" class="form-control" id="direccion" name="direccion">
                         </div>
 
                         <div class="col-sm-6">
-                            <label for="inputpoblacion" class="form-label">Población</label>
+                            <label for="poblacion" class="form-label">Población</label>
                             <input type="text" class="form-control" id="poblacion" name="poblacion">
                         </div>
                         
                         
                         <div class="col-sm-4">
-                            <label for="inputid_administrador" class="form-label">ID Administrador</label>
+                            <label for="id_administrador" class="form-label">ID Administrador</label>
                             <input type="number" class="form-control" id="id_administrador" name="id_administrador">
                         </div>
                         
